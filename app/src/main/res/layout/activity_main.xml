@@ -12,17 +12,25 @@
         android:layout_height="wrap_content"
         android:id="@+id/button_next"
         android:text="@string/next"/>
-    <Button
+
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button_play"
-        android:text="@string/play"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button_pause"
-        android:text="@string/pause"
-        android:visibility="gone"/>
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_play"
+            android:text="@string/play"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_pause"
+            android:text="@string/pause"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
